@@ -1,4 +1,4 @@
-const shorthandData = require('./shorthandData');
+const shorthandData = require('postcss-sorting/lib/properties-order/shorthandData');
 const { vendor } = require('../utils');
 
 function isShorthand(a, b) {
